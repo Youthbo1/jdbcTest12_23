@@ -11,7 +11,7 @@ import java.util.Properties;
 
 /**
  * JDBC的工具类
- *
+ *fyb
  */
 public class JDBCUtils {
 	private static final String driverClass;
