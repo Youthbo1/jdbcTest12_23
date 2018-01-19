@@ -11,7 +11,7 @@ import java.util.Properties;
 
 /**
  * JDBC的工具类
- * @author jt
+ * @author
  *
  */
 public class JDBCUtils {

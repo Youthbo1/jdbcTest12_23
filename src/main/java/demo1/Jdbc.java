@@ -56,7 +56,7 @@ public class Jdbc {
     /**
      * JDBC资源的释放
      */
-    public void demo2(){
+    public void demo2() {
         Connection conn = null;
         Statement stmt = null;
         ResultSet rs = null;
@@ -72,30 +72,28 @@ public class Jdbc {
             stmt = conn.createStatement();
             // 3.2执行sql
             rs = stmt.executeQuery(sql);
-            while(rs.next()){
+            while (rs.next()) {
                 int uid = rs.getInt("uid");
                 String username = rs.getString("username");
                 String password = rs.getString("password");
                 String name = rs.getString("name");
 
-                System.out.println(uid+"   "+username+"   "+password+"   "+name);
+                System.out.println(uid + "   " + username + "   " + password + "   " + name);
             }
 
         } catch (Exception e) {
             e.printStackTrace();
-        }finally{
+        } finally {
             // 4.释放资源
             if (rs != null) {
                 try {
                     rs.close();
                 } catch (SQLException sqlEx) { // ignore
-
                 }
-
                 rs = null;
             }
 
-            if(stmt != null){
+            if (stmt != null) {
                 try {
                     stmt.close();
                 } catch (SQLException e) {
@@ -104,7 +102,7 @@ public class Jdbc {
                 stmt = null;
             }
 
-            if(conn != null){
+            if (conn != null) {
                 try {
                     conn.close();
                 } catch (SQLException e) {

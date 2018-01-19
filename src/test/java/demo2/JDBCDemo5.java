@@ -1,16 +1,14 @@
 package demo2;
 
+import org.junit.Test;
+import utils.JDBCUtils;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import org.junit.Test;
-
-import utils.JDBCUtils;
-
 /**
  * PreparedStatement的使用
- * @author jt
  *
  */
 public class JDBCDemo5 {

@@ -1,17 +1,15 @@
 package demo2;
 
+import org.junit.Test;
+import utils.JDBCUtils;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import org.junit.Test;
-
-import utils.JDBCUtils;
-
 /**
  * 演示JDBC的注入的漏洞
- * @author jt
  *
  */
 public class JDBCDemo4 {
