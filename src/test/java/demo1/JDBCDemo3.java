@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 import org.junit.Test;
 
-import utils.JDBCUtils ;
+import jdbc.utils.JDBCUtils;
 
 public class JDBCDemo3 {
 

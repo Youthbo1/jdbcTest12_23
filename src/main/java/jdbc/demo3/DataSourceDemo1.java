@@ -1,8 +1,8 @@
-package demo3;
+package jdbc.demo3;
 
-import utils.JDBCUtils2 ;
+import jdbc.utils.JDBCUtils2;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
-import utils.JDBCUtils;
+import jdbc.utils.JDBCUtils;
 import org.junit.Test;
 
 import java.sql.Connection;

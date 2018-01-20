@@ -1,7 +1,7 @@
 package demo2;
 
 import org.junit.Test;
-import utils.JDBCUtils;
+import jdbc.utils.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,7 +19,7 @@ public class JDBCDemo4 {
 	 */
 	public void demo1(){
 		//boolean flag = JDBCDemo4.login("aaa","111");
-		boolean flag = JDBCDemo4.login2("aaa' or '1=1", "1fsdsdfsdf");
+		boolean flag = jdbc.demo2.JDBCDemo4.login2("aaa' or '1=1", "1fsdsdfsdf");
 		if(flag == true){
 			System.out.println("登录成功！");
 		}else{

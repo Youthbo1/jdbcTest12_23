@@ -24,7 +24,7 @@ public class JDBCUtils {
 		Properties props = new Properties();
 		// 如何获得属性文件的输入流？
 		// 通常情况下使用类的加载器的方式进行获取：
-		InputStream is = JDBCUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+		InputStream is = jdbc.utils.JDBCUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
 		try {
 			props.load(is);
 		} catch (IOException e) {

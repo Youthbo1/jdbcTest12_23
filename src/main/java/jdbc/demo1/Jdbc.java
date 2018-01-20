@@ -1,4 +1,4 @@
-package demo1;
+package jdbc.demo1;
 
 import org.junit.Test;
 

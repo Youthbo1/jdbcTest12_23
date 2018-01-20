@@ -1,7 +1,7 @@
 package demo2;
 
 import org.junit.Test;
-import utils.JDBCUtils;
+import jdbc.utils.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

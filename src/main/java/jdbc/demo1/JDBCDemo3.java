@@ -1,11 +1,11 @@
-package demo1;
+package jdbc.demo1;
 
 import java.sql.Connection;
 import java.sql.Statement;
 
 import org.junit.Test;
 
-import utils.JDBCUtils ;
+import jdbc.utils.JDBCUtils;
 
 public class JDBCDemo3 {
 

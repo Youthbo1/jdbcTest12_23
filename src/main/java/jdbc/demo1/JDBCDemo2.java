@@ -1,4 +1,4 @@
-package demo1; /**
+package jdbc.demo1; /**
  * \Date: 2017/12/23
  * \
  * \Description:
